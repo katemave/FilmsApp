@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="intec.be.filmsapp.DetailActivity" tools:ignore="MergeRootFrame"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/txtv_titledet"
+            android:textSize="35sp"
+            android:gravity="center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/txtv_synopsis"
+        android:layout_below="@+id/txtv_detailtitle"
+        android:layout_alignParentStart="true"
+        android:textSize="35sp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/txtv_afbeelding" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/txtv_regdet"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/txtv_releasedet"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="personen">
+        <item>Kristof</item>
+        <item>Kate</item>
+        <item>Tom</item>
+        <item>Pascal</item>
+        <item>Jawad</item>
+        <item>Seppe</item>
+        <item>Kenneth</item>
+    </array>
+
+    <array name="leeftijd">
+        <item>32</item>
+        <item>25</item>
+        <item>32</item>
+        <item>32</item>
+        <item>20</item>
+        <item>24</item>
+        <item>26</item>
+    </array>
+</resources>

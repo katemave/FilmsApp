@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FilmsApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="txtv_adddia">Add a new film!</string>
+    <string name="txtv_addReg">Regisseur</string>
+    <string name="txtv_addtitle">Titel</string>
+    <string name="txtv_addRelease">ReleaseDatum</string>
+    <string name="txtv_addSynopsis">Synopsis</string>
+    <string name="txtv_addAfbeelding">Afbeelding</string>
+
+</resources>
